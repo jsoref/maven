@@ -1518,7 +1518,7 @@ public class PomConstructionTest
     {
         Properties sysProps = new Properties();
         sysProps.setProperty( "system.property", "PASSED" );
-        PomTestWrapper pom = buildPom( "sytem-property-interpolation", sysProps );
+        PomTestWrapper pom = buildPom( "system-property-interpolation", sysProps );
         assertEquals( "PASSED", pom.getValue( "name" ) );
     }
 
