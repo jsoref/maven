@@ -112,7 +112,7 @@ Unified source directory
  new developers up and running. They could run a maven command and have all
  their source trees set up in the same way as their colleagues.
 
- here's what I do currently in the netbeans part of the mevenide project to
+ here's what I do currently in the netbeans part of the mavenide project to
  find the relevant subprojects/sibling projects. I check if the user has
  defined the maven.multiproject.includes property in any of his properties
  files for the current project. if yes. then I'm able to find projects that
