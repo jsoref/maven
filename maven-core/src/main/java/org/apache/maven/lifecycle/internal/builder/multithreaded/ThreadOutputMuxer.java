@@ -54,7 +54,7 @@ public class ThreadOutputMuxer
 
     private final ByteArrayOutputStream defaultOutputStreamForUnknownData = new ByteArrayOutputStream();
 
-    private final PrintStream defaultPringStream = new PrintStream( defaultOutputStreamForUnknownData );
+    private final PrintStream defaultPrintStream = new PrintStream( defaultOutputStreamForUnknownData );
 
     private final Set<ProjectSegment> completedBuilds = Collections.synchronizedSet( new HashSet<ProjectSegment>() );
 
@@ -175,7 +175,7 @@ public class ThreadOutputMuxer
         ProjectSegment threadProject = projectBuildThreadLocal.get();
         if ( threadProject == null )
         {
-            return defaultPringStream;
+            return defaultPrintStream;
         }
         if ( ownsRealOutputStream( threadProject ) )
         {
