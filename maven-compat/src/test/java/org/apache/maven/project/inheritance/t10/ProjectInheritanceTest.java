@@ -27,7 +27,7 @@ import org.apache.maven.project.MavenProject;
 import org.apache.maven.project.inheritance.AbstractProjectInheritanceTestCase;
 
 /**
- * Verifies scope inheritence of direct and transitive dependencies.
+ * Verifies scope inheritance of direct and transitive dependencies.
  *
  * Should show three behaviors:
  *
