@@ -66,7 +66,7 @@ public class DefaultProjectDependencyGraphTest
         assertEquals( depender3, sortedProjects.get( 3 ) );
     }
 
-    public void testVerifyThatDownsteamProjectsComeInSortedOrder()
+    public void testVerifyThatDownstreamProjectsComeInSortedOrder()
         throws CycleDetectedException, DuplicateProjectException
     {
         final List<MavenProject> downstreamProjects =
