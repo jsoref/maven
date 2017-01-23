@@ -102,7 +102,7 @@ public class DefaultProjectDependencyGraphTest
         assertEquals( depender2, downstreamProjects.get( 3 ) );
     }
 
-    public void testWithTranistiveOnly()
+    public void testWithTransitiveOnly()
         throws CycleDetectedException, DuplicateProjectException
     {
         final ProjectDependencyGraph graph = new DefaultProjectDependencyGraph(
@@ -115,7 +115,7 @@ public class DefaultProjectDependencyGraphTest
         assertEquals( depender2, downstreamProjects.get( 3 ) );
     }
 
-    public void testWithMissingTranistiveOnly()
+    public void testWithMissingTransitiveOnly()
         throws CycleDetectedException, DuplicateProjectException
     {
         final ProjectDependencyGraph graph = new DefaultProjectDependencyGraph(
