@@ -57,7 +57,7 @@ public class DefaultProjectDependencyGraphTest
     public void testVerifyExpectedParentStructure()
         throws CycleDetectedException, DuplicateProjectException
     {
-        // This test verifies the baseline structure used in susequent tests. If this fails, the rest will fail.
+        // This test verifies the baseline structure used in subsequent tests. If this fails, the rest will fail.
         ProjectDependencyGraph graph = threeProjectsDependingOnASingle();
         final List<MavenProject> sortedProjects = graph.getSortedProjects();
         assertEquals( aProject, sortedProjects.get( 0 ) );
