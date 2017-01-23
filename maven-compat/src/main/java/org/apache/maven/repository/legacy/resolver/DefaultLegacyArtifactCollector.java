@@ -477,7 +477,7 @@ public class DefaultLegacyArtifactCollector
                                     manageArtifact( child, managedVersions, listeners );
 
                                     // Also, we need to ensure that any exclusions it presents are
-                                    // added to the artifact before we retrive the metadata
+                                    // added to the artifact before we retrieve the metadata
                                     // for the artifact; otherwise we may end up with unwanted
                                     // dependencies.
                                     Artifact ma = managedVersions.get( childKey );
