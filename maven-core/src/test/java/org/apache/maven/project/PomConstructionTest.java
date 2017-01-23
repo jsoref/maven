@@ -94,7 +94,7 @@ public class PomConstructionTest
     }
 
     /**
-     * Tests that modules is not overriden by profile
+     * Tests that modules is not overridden by profile
      *
      * @throws Exception
      */
