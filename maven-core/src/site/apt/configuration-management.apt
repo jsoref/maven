@@ -66,7 +66,7 @@ ${maven.home}
  We once had a document that Vincent and I agreed upon and I was about to
  implement it and then I disappeared for 8 months so it never came to pass.
 
- So I guess it's important to figure out what people are using propeties
+ So I guess it's important to figure out what people are using properties
  files for and see if we can't incorporate it all into the POM. Or if we do
  have properties file (something I would like to avoid) say they don't
  contribute in any meaningful way to information in the POM. For example a
