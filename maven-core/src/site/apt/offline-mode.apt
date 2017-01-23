@@ -201,7 +201,7 @@ Offline Mode Design
   The majority of mojos will leave the requiresOnline == false,
   since online/offline status will be irrelevant, provided they have
   access to their required artifacts and other classpath elements. In the case
-  of required artifacts and other classpath elemtents, this is assumed by the
+  of required artifacts and other classpath elements, this is assumed by the
   mojo API to be in a correct state, and will be handled by the Wagon
   modifications.
 
